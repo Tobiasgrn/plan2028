@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plan 2028</string>
+
+    <string name="w_until">Til I flytter sammen</string>
+    <string name="w_until_sub">Tryk for at åbne Plan 2028</string>
+    <string name="w_days">dage</string>
+    <string name="w_move">Flyttekonto</string>
+    <string name="w_train">Træning</string>
+    <string name="w_hours">Timer</string>
+    <string name="w_month">denne måned</string>
+    <string name="w_btn_shift">+ Vagt</string>
+    <string name="w_btn_trained">+ Trænet i dag</string>
+    <string name="w_btn_trained_done">✓ Trænet i dag</string>
+    <string name="w_move_title">Flytning om</string>
+    <string name="w_overview_desc">Nedtælling, flyttekonto, træning og timer</string>
+    <string name="w_countdown_desc">Dage til I flytter sammen</string>
+
+    <string name="sc_shift">Log vagt</string>
+    <string name="sc_shift_long">Log en vagt</string>
+    <string name="sc_save">Indbetal</string>
+    <string name="sc_save_long">Registrér en indbetaling</string>
+    <string name="sc_train">Trænet i dag</string>
+    <string name="sc_train_long">Log dagens træning</string>
+
+    <string name="tile_label">Trænet i dag</string>
+
+    <string name="n_channel">Påmindelser</string>
+    <string name="n_channel_desc">Lønningsdag, træning og ugens status</string>
+    <string name="n_action_trained">Jeg har trænet</string>
+</resources>

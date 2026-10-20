@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#F2F2F7</color>
+    <color name="ic_bg">#2F6BFF</color>
+    <color name="ic_door">#2F6BFF</color>
+    <color name="ic_dot">#FF9F45</color>
+
+    <color name="w_bg">#FFFFFF</color>
+    <color name="w_fill">#ECECF1</color>
+    <color name="w_ink">#0F0F12</color>
+    <color name="w_muted">#71717A</color>
+    <color name="w_blue">#2F6BFF</color>
+    <color name="w_orange">#F27318</color>
+    <color name="w_green">#16A660</color>
+
+    <color name="sc_bg">#FFFFFF</color>
+</resources>

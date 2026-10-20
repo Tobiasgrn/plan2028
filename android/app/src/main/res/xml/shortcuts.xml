@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Genveje, når man holder fingeren på app-ikonet. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_shift"
+        android:shortcutId="shift"
+        android:shortcutLongLabel="@string/sc_shift_long"
+        android:shortcutShortLabel="@string/sc_shift">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dk.plan2028.app.MainActivity"
+            android:targetPackage="dk.plan2028.app">
+            <extra android:name="open" android:value="vagt" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_save"
+        android:shortcutId="save"
+        android:shortcutLongLabel="@string/sc_save_long"
+        android:shortcutShortLabel="@string/sc_save">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dk.plan2028.app.MainActivity"
+            android:targetPackage="dk.plan2028.app">
+            <extra android:name="open" android:value="spar" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/sc_train"
+        android:shortcutId="trained"
+        android:shortcutLongLabel="@string/sc_train_long"
+        android:shortcutShortLabel="@string/sc_train">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="dk.plan2028.app.MainActivity"
+            android:targetPackage="dk.plan2028.app">
+            <extra android:name="open" android:value="trained" />
+        </intent>
+    </shortcut>
+</shortcuts>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive icon foreground: a house with a door, plus an orange dot (the goal). Safe zone is the central 66dp. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M35,55 L54,39 L73,55 L73,73 Q73,75 71,75 L37,75 Q35,75 35,73 Z" />
+    <path
+        android:fillColor="@color/ic_door"
+        android:pathData="M49,75 L49,63 Q49,61 51,61 L57,61 Q59,61 59,63 L59,75 Z" />
+    <path
+        android:fillColor="@color/ic_dot"
+        android:pathData="M72,34 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+</vector>

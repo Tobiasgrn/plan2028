@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#000000</color>
+
+    <color name="w_bg">#1A1A1C</color>
+    <color name="w_fill">#2A2A2D</color>
+    <color name="w_ink">#F4F4F6</color>
+    <color name="w_muted">#9A9AA2</color>
+    <color name="w_blue">#5B8CFF</color>
+    <color name="w_orange">#FF9F45</color>
+    <color name="w_green">#34D17C</color>
+</resources>

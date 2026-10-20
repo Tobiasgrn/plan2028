@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/w_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/w_until"
+            android:textColor="@color/w_muted"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/w_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:includeFontPadding="false"
+                android:text="0"
+                android:textColor="@color/w_ink"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:text="@string/w_days"
+                android:textColor="@color/w_muted"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/w_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:gravity="end"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/w_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/w_journey"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="6dp"
+            android:layout_marginTop="8dp"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/widget_progress_blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/w_col_move"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView style="@style/WLabel" android:text="@string/w_move" />
+            <TextView android:id="@+id/w_move" style="@style/WValue" android:textColor="@color/w_orange" android:text="0 kr." />
+            <TextView android:id="@+id/w_move_pct" style="@style/WSmall" android:text="0 %" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/w_col_train"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView style="@style/WLabel" android:text="@string/w_train" />
+            <TextView android:id="@+id/w_train" style="@style/WValue" android:textColor="@color/w_green" android:text="0 / 4" />
+            <TextView android:id="@+id/w_streak" style="@style/WSmall" android:text="0 uger i træk" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/w_col_hours"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView style="@style/WLabel" android:text="@string/w_hours" />
+            <TextView android:id="@+id/w_hours" style="@style/WValue" android:text="0 t" />
+            <TextView style="@style/WSmall" android:text="@string/w_month" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/w_btn_shift"
+            style="@style/WPill"
+            android:layout_marginEnd="8dp"
+            android:text="@string/w_btn_shift" />
+
+        <TextView
+            android:id="@+id/w_btn_trained"
+            style="@style/WPill"
+            android:text="@string/w_btn_trained" />
+    </LinearLayout>
+</LinearLayout>
